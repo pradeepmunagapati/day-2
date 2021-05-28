@@ -1,0 +1,21 @@
+					
+public class Program
+{
+	public static void Main()
+	{
+		string[][] members = new string[2][]
+		{
+			new string[]{"jhonny", "stefen"},
+			new string[]{"Hello","World","Alex"}
+		};
+		for(int i=0;i<members.Length; i++)
+		{
+			for(int j=0;j<members[i].Length;j++)
+			{
+				Console.WriteLine(members[i][j]+" ");
+			}
+			Console.WriteLine();
+		}
+		Console.WriteLine();
+	}
+}
